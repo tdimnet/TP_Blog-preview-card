@@ -1,0 +1,45 @@
+/* A mettre impérativement en premier */
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #F4D04E;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: #FFFFFF;
+    width: 384px;
+    padding: 24px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.profile-picture {
+    width: 32px;
+    height: 32px;
+}
+
+.profile-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.profile-wrapper img {
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
